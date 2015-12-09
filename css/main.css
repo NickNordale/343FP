@@ -1,3 +1,7 @@
+/* Nick */
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
 
 nav {
     background-color: #FFF;
@@ -10,3 +14,59 @@ nav {
 #nav-list>li {
     display: inline-block;
 }
+
+/* Kimiko */
+a {
+    color: #35A0C3;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #878787;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Wei-Jen */
+#emailBorder {
+    width: 55%;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #000;
+}
+
+.faq > ul, .customers > ul {
+    list-style-type: none;
+}
+
+.faq > ul > li,
+.customers > ul > li {
+    padding-left: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    font-size: 12px;
+    border-style: solid;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+
+.faq > ul > li > h2,
+.customers > ul > li > h2 {
+    font-size: 16px;
+    color: #336699;
+}
+
+#gallery-1 {
+    margin: auto;
+}
+#gallery-1 .gallery-item {
+    float: left;
+    margin-top: 10px;
+    width: 12%;
+}
+#gallery-1 img {
+    border: 2px solid #cfcfcf;
+}
+
