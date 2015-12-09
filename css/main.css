@@ -1,0 +1,12 @@
+
+nav {
+    background-color: #FFF;
+}
+
+#nav-list {
+    list-style-type: none;
+}
+
+#nav-list>li {
+    display: inline-block;
+}
