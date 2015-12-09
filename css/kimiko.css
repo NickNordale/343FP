@@ -1,0 +1,19 @@
+a {
+	color: #35A0C3;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #878787;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#emailBorder {
+	width: 55%;
+	margin: 1em;
+	padding: 1em;
+	border: 1px solid #000;
+}
