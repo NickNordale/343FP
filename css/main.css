@@ -3,6 +3,10 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
+body {
+    padding: 0;
+}
+
 nav {
     background-color: #FFF;
 }
@@ -13,6 +17,19 @@ nav {
 
 #nav-list>li {
     display: inline-block;
+    vertical-align: bottom;
+}
+
+#nav-logo {
+    padding-top: 10px;
+}
+
+#mc-sandals-logo {
+    float: right;
+}
+
+#mc-info {
+    margin-left: 5px;
 }
 
 /* Kimiko */
@@ -69,4 +86,3 @@ ul {
 #gallery-1 img {
     border: 2px solid #cfcfcf;
 }
-

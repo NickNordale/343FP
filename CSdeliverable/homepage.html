@@ -10,33 +10,279 @@
     <!--our stylesheet-->
     <link rel="stylesheet" href="../css/main.css">
 
-    <!-- our script file -->
-    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="nick.css"/>
 
 </head>
 <body>
 
-<nav id="desktop-nav" class="navbar" role="navigation">
+<nav id="desktop-nav" class="navbar hidden-xs" role="navigation">
 
-    <ul id="nav-list">
-        <li id="mc-logo"><img src="../img/image_logo_mc.jpg" alt=""/></li>
-        <li id="mc-headshot"><img src="../img/image_molly_sumption.jpg" alt=""/></li>
-        <li id="mc-info">
-            <ul id="mc-info-list">
-                <li><strong>Molly Sumption</strong></li>
-                <li>Seattle: (206) 575-0907</li>
-                <li>Portland: (503 715-3107</li>
-                <li>Toll Free: (800) 777-0907</li>
-                <li><a href="">email Molly</a></li>
-            </ul>
-        </li>
-        <li id="mc-sandals-logo"><img src="../img/image_logo_sandals_cert.jpg" alt=""/></li>
-    </ul>
+    <div class="col-md-1 hidden-sm">
+
+    </div>
+
+    <div class="col-sm-12 col-md-10" id="nav-logo">
+        <ul id="nav-list">
+            <li id="mc-logo"><img src="../img/image_logo_mc.jpg" alt=""/></li>
+            <li id="mc-headshot"><img src="../img/image_molly_sumption.jpg" alt=""/></li>
+            <li id="mc-info">
+                <p id="mc-info-p">
+                    <span><strong>Molly Sumption</strong></span><br>
+                    <span>Seattle: (206) 575-0907</span><br>
+                    <span>Portland: (503 715-3107</span><br>
+                    <span>Toll Free: (800) 777-0907</span><br>
+                    <span><a href="">email Molly</a></span>
+                </p>
+            </li>
+            <li id="mc-sandals-logo"><img src="../img/image_logo_sandals_cert.jpg" alt=""/></li>
+        </ul>
+    </div>
+
+    <div class="col-md-1 hidden-sm">
+
+    </div>
 </nav>
 
-<main class="container">
+<nav id="mobile-nav" class="navbar hidden-sm hidden-md hidden-lg" role="navigation">
 
+    <div class="col-xs-4">
+        One
+    </div>
+    <div class="col-xs-4">
+        Two
+    </div>
+    <div class="col-xs-4">
+        Three
+    </div>
+
+</nav>
+
+<main>
+    <div class="hidden-xs" id="desktop-homepage">
+        <div id="mn-container" class="container">
+            <div class="row" id="events-row">
+                <div id="pitch-col" class="col-sm-4">
+                    <div id="pitch">
+                        <p>
+                            Booking your trip through a Preferred Sandals / Beaches Specialist, ensures you
+                            are getting the best possible service to make your honeymoon or vacation a memorable
+                            one. I charge no fees to my customers. All commissions come to me from the
+                            resorts that I represent.
+                            <a href="http://www.mollyscaribbean.com/certified_sandals_benefit/">
+                                Learn more
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+
+                    <h2 class="events-h2">Find me in Seattle!</h2>
+
+                    <ul class="event-list">
+                        <li>
+                            <time>
+                                <span class="day">4</span>
+                                <span class="month">Oct</span>
+                                <span class="year">2016</span>
+                            </time>
+                            <div class="info">
+                                <h2 class="title"><a href="http://www.mollyscaribbean.com/october-4-2016-urban-unveiled">Urban Unveiled</a></h2>
+                                <p class="desc hidden-sm">Fairmont Olympic Hotel</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <time>
+                                <span class="day">16</span>
+                                <span class="month">Jan</span>
+                                <span class="year">2016</span>
+                            </time>
+                            <div class="info">
+                                <h2 class="title"><a href="http://www.mollyscaribbean.com/january-16-17-2016-seattle-wedding-show/">Seattle Wedding Show</a></h2>
+                                <p class="desc hidden-sm">Washington State Convention Center</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <time>
+                                <span class="day"></span>
+                                <span class="month" style="margin-top: 7px;">Fall 2016<br></span>
+                                <span class="year">2016</span>
+                            </time>
+                            <div class="info">
+                                <h2 class="title"><a href="http://www.mollyscaribbean.com/seattle-complimentary-honeymoon-destination-wedding-consultations-at-starbucks/">Complimentary Honeymoon Consultations</a></h2>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+
+                    <h2 class="events-h2">Find me in Portland!</h2>
+
+                    <ul class="event-list">
+                        <li>
+                            <time>
+                                <span class="day">3</span>
+                                <span class="month">Oct</span>
+                                <span class="year">2016</span>
+                            </time>
+                            <div class="info">
+                                <h2 class="title"><a href="http://www.mollyscaribbean.com/october-304-2015-portland-wedding-showcase/">Portland Wedding Showcase</a></h2>
+                                <p class="desc hidden-sm">Oregon Convention Center</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <time>
+                                <span class="day">16</span>
+                                <span class="month">Jan</span>
+                                <span class="year">2016</span>
+                            </time>
+                            <div class="info">
+                                <h2 class="title"><a href="http://www.mollyscaribbean.com/january-12-13-portland-bridal-show/">Portland Bridal Show</a></h2>
+                                <p class="desc hidden-sm">Oregon Convention Center</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <time>
+                                <span class="day"></span>
+                                <span class="month" style="margin-top: 7px;">Fall 2016<br></span>
+                                <span class="year">2016</span>
+                            </time>
+                            <div class="info">
+                                <h2 class="title"><a href="http://www.mollyscaribbean.com/seattle-complimentary-honeymoon-destination-wedding-consultations-at-starbucks/">Complimentary Honeymoon Consultations</a></h2>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" id="topics-row">
+
+                <div class="col-sm-4">
+                    <div>
+                        <div>
+                            <a href="http://www.mollyscaribbean.com/frequently-asked-questions" title="Frequently Asked Questions"><img src="../img/image_button_faq.jpg"></a>
+                        </div>
+                        <a href="http://www.mollyscaribbean.com/frequently-asked-questions" title="Frequently Asked Questions"><h3>FAQ's</h3></a>
+                        <p>Planning a honeymoon or trip to the Caribbean, these are the questions I get asked most.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div>
+                        <div>
+                            <a href="http://www.mollyscaribbean.com/mollys-favorites" title="Molly&#39;s Favorites"><img src="../img/image_button_molly_fav.jpg"></a>
+                        </div>
+                        <a href="http://www.mollyscaribbean.com/mollys-favorites" title="Molly&#39;s Favorites"><h3>Molly's Favorites</h3></a>
+                        <p>These are some of my favorite resorts and things to do in the Caribbean.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div>
+                        <div>
+                            <a href="http://www.mollyscaribbean.com/customers" title="What My Customers Say"><img src="../img/image_button_what_cust_say.jpg"></a>
+                        </div>
+                        <a href="http://www.mollyscaribbean.com/customers" title="What My Customers Say"><h3>What My Customers Say</h3></a>
+                        <p>Read actual letters and comments from my customers.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row"id="resorts-row">
+
+                <div class="col-sm-3">
+
+                    <div class="resorts_button">
+                        <div class="button_image">
+                            <a href="http://www.sandals.com/?referral=101280" title="Visit the Sandals Website"><img src="../img/image_button_resorts_sandals.jpg"></a>
+                        </div>
+                        <a href="http://www.sandals.com/?referral=101280" title="Visit the Sandals Website"><h3>Sandals</h3></a>
+                        <p>A diverse collection of 14 of earth's most idyllic Luxury All Inclusive resorts.</p>
+                    </div>
+
+                    <div class="resorts_button">
+                        <div class="button_image">
+                            <a href="http://www.excellence-resorts.com/" title="Visit the Excellence Resorts Website"><img src="../img/image_button_resorts_excellence.jpg"></a>
+                        </div>
+                        <a href="http://www.excellence-resorts.com/" title="Visit the Excellence Resorts Website"><h3>Excellence</h3></a>
+                        <p>The Caribbean's premier all inclusive luxury adults only resort group.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+
+                    <div class="resorts_button">
+                        <div class="button_image">
+                            <a href="http://www.beaches.com/specials/freenights.cfm?referral=101280" title="Visit the Beaches Website"><img src="../img/image_button_resorts_beaches.jpg"></a>
+                        </div>
+                        <a href="http://www.beaches.com/specials/freenights.cfm?referral=101280" title="Visit the Beaches Website"><h3>Beaches</h3></a>
+                        <p>Your perfect family getaway awaits you at Beaches Resorts in Jamaica and Turks and Caicos.</p>
+                    </div>
+
+                    <div class="resorts_button">
+                        <div class="button_image">
+                            <a href="http://www.eliteislandresorts.com/" title="Visit the Elite Island Resort Website"><img src="../img/image_button_resorts_elite.jpg"></a>
+                        </div>
+                        <a href="http://www.eliteislandresorts.com/" title="Visit the Elite Island Resort Website"><h3>Elite Island</h3></a>
+                        <p>An impressive collection of unique beachfront Caribbean resorts.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+
+                    <div class="resorts_button">
+                        <div class="button_image">
+                            <a href="http://www.grandpineapple.com/" title="Visit the Grand Pineapple Website"><img src="../img/image_button_resorts_pineapple.jpg"></a>
+                        </div>
+                        <a href="http://www.grandpineapple.com/" title="Visit the Grand Pineapple Website"><h3>Grand Pineapple</h3></a>
+                        <p>Caribbean family beach resorts that feature colorful accommodations nestled amidst lush flowering gardens.</p>
+                    </div>
+
+                    <div class="resorts_button">
+                        <div class="button_image">
+                            <a href="http://www.secretsresorts.com/" title="Visit the Secrets Resort and Spa Website"><img src="../img/image_button_resorts_secrets.jpg"></a>
+                        </div>
+                        <a href="http://www.secretsresorts.com/" title="Visit the Secrets Resort and Spa Website"><h3>Secrets</h3></a>
+                        <p>Secrets Resorts &amp; Spas offer adults an escape to romance and sensuality in spectacular oceanfront settings.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+
+                    <div class="resorts_button">
+                        <div class="button_image">
+                            <a href="http://couples.com/" title="Visit the Couples Website"><img src="../img/image_button_resorts_couples.jpg"></a>
+                        </div>
+                        <a href="http://couples.com/" title="Visit the Couples Website"><h3>Couples</h3></a>
+                        <p>Transform your next Jamaica vacation into a romantic getaway at one of their four all-inclusive resorts.</p>
+                    </div>
+
+                    <div class="resorts_button">
+                        <div class="button_image">
+                            <a href="http://www.karismahotels.com/" title="Visit the Karisma Hotel and Resorts Website"><img src="../img/image_button_resorts_karisma.jpg"></a>
+                        </div>
+                        <a href="http://www.karismahotels.com/" title="Visit the Karisma Hotel and Resorts Website"><h3>Karisma</h3></a>
+                        <p>a premier collection of award-winning properties throughout the Riviera Maya, and Mexico.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="hidden-sm hidden-md hidden-lg" id="mobile-homepage">
+        Mobile! Woohoo!
+    </div>
 </main>
+
+<!-- <footer id="foot">
+    <p>All contents copyright © 2009 - 2015, Molly's Caribbean</p>
+</footer> -->
 
 </body>
 </html>
