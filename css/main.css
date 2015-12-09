@@ -1,3 +1,4 @@
+/* Nick */
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
@@ -12,6 +13,28 @@ nav {
 
 #nav-list>li {
     display: inline-block;
+}
+
+/* Kimiko */
+a {
+    color: #35A0C3;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #878787;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Wei-Jen */
+#emailBorder {
+    width: 55%;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #000;
 }
 
 .faq > ul, .customers > ul {
