@@ -10,3 +10,35 @@ nav {
 #nav-list>li {
     display: inline-block;
 }
+
+#mc-logo {
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+#mc-headshot {
+    position: absolute;
+    left: 600px;
+    top: 10px;
+}
+
+#mc-info {
+    position: absolute;
+    left: 715px;
+    top: 10px;
+}
+
+#mc-sandals-logo {
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+
+/*#mc-sandals-logo {
+    float: right;
+}
+
+#mc-logo {
+    float: left;
+}*/
