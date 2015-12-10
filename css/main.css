@@ -109,6 +109,18 @@ br {
 
 /* Nick */
 
+/* Email modal */
+
+.modal-content {
+    color: #000;
+}
+
+.contactinfo input, .contactinfo textarea {
+    border-radius: 5px;
+}
+
+/* End email modal */
+
 html, body, main {
     height: auto;
     margin: 0;
