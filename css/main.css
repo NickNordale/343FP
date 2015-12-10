@@ -224,6 +224,7 @@ nav {
 }
 
 #nav-list {
+    padding-left: 0;
     list-style-type: none;
 }
 
@@ -236,12 +237,29 @@ nav {
     padding-top: 10px;
 }
 
-#mc-sandals-logo {
-    float: right;
+#logo-img {
+    width: 100%;
+    height: auto;
+    max-width: 342px;
+}
+
+#sandals-img {
+    width: 100%;
+    height: auto;
+    max-width: 168px;
+}
+
+#mc-headshot {
+    margin-right: 5px;
+    float: left;
 }
 
 #mc-info {
-    margin-left: 5px;
+    float: left;
+}
+
+#mc-info-list {
+    padding-left: 10px;
 }
 
 #mobile-nav {
@@ -411,6 +429,10 @@ nav {
 }
 
 @media (min-width: 768px) {
+
+    .navbar {
+        margin-bottom: 10px;
+    }
 
     #topics-row {
         color: #FFF;

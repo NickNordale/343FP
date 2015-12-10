@@ -13,25 +13,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
-
 <body>
 
-<nav id="desktop-nav" class="navbar" role="navigation">
+<nav id="desktop-nav" class="navbar hidden-xs" role="navigation">
 
-    <ul id="nav-list">
-        <li id="mc-logo"><img src="../img/image_logo_mc.jpg" alt=""/></li>
-        <li id="mc-headshot"><img src="../img/image_molly_sumption.jpg" alt=""/></li>
-        <li id="mc-info">
-            <ul id="mc-info-list">
-                <li><strong>Molly Sumption</strong></li>
-                <li>Seattle: (206) 575-0907</li>
-                <li>Portland: (503 715-3107</li>
-                <li>Toll Free: (800) 777-0907</li>
-                <li><a href="">email Molly</a></li>
-            </ul>
-        </li>
-        <li id="mc-sandals-logo"><img src="../img/image_logo_sandals_cert.jpg" alt=""/></li>
-    </ul>
+    <div class="col-sm-5">
+        <img id="logo-img" src="../img/image_logo_mc.jpg" alt=""/>
+    </div>
+
+    <div class="col-sm-5" id="nav-logo">
+        <ul id="nav-list">
+            <li id="mc-headshot"><img src="../img/image_molly_sumption.jpg" alt=""/></li>
+            <li id="mc-info">
+                <p id="mc-info-p">
+                    <span><strong>Molly Sumption</strong></span><br>
+                    <span>Seattle: (206) 575-0907</span><br>
+                    <span>Portland: (503 715-3107</span><br>
+                    <span>Toll Free: (800) 777-0907</span><br>
+                    <span><a href="">email Molly</a></span>
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-sm-2">
+        <img id="sandals-img" src="../img/image_logo_sandals_cert.jpg" alt=""/>
+    </div>
+</nav>
+
+<nav id="mobile-nav" class="navbar hidden-sm hidden-md hidden-lg" role="navigation">
+
+    <img id="mobile-mc-logo" src="../img/image_logo_mc.jpg" alt=""/>
+    <img id="mobile-mc-sandals-logo" src="../img/image_logo_sandals_cert.jpg" alt=""/>
+
+    <div class="btn-group dropdown" id="mobile-dropdown">
+        <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-right">
+            <li><a href="http://www.mollyscaribbean.com/frequently-asked-questions/">FAQS</a></li>
+            <li><a href="http://www.mollyscaribbean.com/customers/">Customer Reviews</a></li>
+            <li><a href="http://www.mollyscaribbean.com/contact-us/">Contact Me</a></li>
+        </ul>
+    </div>
+
 </nav>
 
 <main class="customers">
