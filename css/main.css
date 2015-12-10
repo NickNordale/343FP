@@ -1,6 +1,8 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
 
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
 /* Kimiko */
 
 a:hover {
@@ -212,19 +214,23 @@ nav {
 }
 
 #mobile-mc-logo {
-    width: 70%;
+    width: 60%;
     height: auto;
-    float: left;
 }
 
 #mobile-mc-sandals-logo {
-    width: 30%;
+    width: 20%;
     height: auto;
-    float: right;
 }
 
 #mobile-mc-info-p {
     color: #000;
+}
+
+#mobile-dropdown {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 
 /* Event list css */
