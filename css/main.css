@@ -24,13 +24,19 @@ ul {
 }
 
 .content {
-    background-color: #E9EBED;
+    background-color: #FFF;
     color: #000;
 }
 
 #faq li {
     padding-right: 15px;
     margin-bottom: 20px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#faq h2 {
+    font-size: 1.25em;
 }
 
 #savings #contact {
@@ -50,6 +56,29 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+#savings h1, #contact h1, #faq h1 {
+    font-size: 2em;
+}
+
+#savings h2 {
+    font-size: 1.75em;
+    letter-spacing: 5px;
+}
+
+#savings h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+#savings a, #faq a {
+    color: #006080;
+}
+
+.savingsdetails {
+    padding-top: 10px;
+}
+
 
 /* Wei-Jen */
 #faq li {
@@ -534,6 +563,11 @@ nav {
     main {
         background-image: url(../img/WP_20150927_040.jpg);
     }
+
+    .content {
+    background-color: #E9EBED;
+    color: #000;
+}
 }
 
 /* End event list css */
