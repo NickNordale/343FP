@@ -480,6 +480,10 @@ nav {
 
 @media (min-width: 768px) {
 
+    .content {
+        background-color: transparent;
+    }
+
     .navbar {
         margin-bottom: 10px;
     }
@@ -584,11 +588,6 @@ nav {
     main {
         background-image: url(../img/WP_20150927_040.jpg);
     }
-
-    .content {
-    background-color: #E9EBED;
-    color: #000;
-}
 }
 
 /* End event list css */
