@@ -209,6 +209,10 @@ nav {
     margin-left: 5px;
 }
 
+#mobile-nav {
+    margin-bottom: 5px;
+}
+
 #mobile-nav-list {
     padding-left: 0;
 }
@@ -223,14 +227,64 @@ nav {
     height: auto;
 }
 
-#mobile-mc-info-p {
-    color: #000;
-}
-
 #mobile-dropdown {
     float: right;
     margin-top: 15px;
     margin-right: 15px;
+}
+
+#mobile-info-row {
+    color: #000;
+    width: 100%;
+    margin: 0;
+    background-color: #DDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mobile-mc-heashot {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+#mobile-mc-info-p {
+    margin: 0;
+    width: 60%;
+    float: right;
+}
+
+#mobile-pitch-row {
+    background-color: #DDD;
+    margin: 0;
+    width: 100%;
+}
+
+#collapse-link-p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#collapse-link-p a {
+    color: #000;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#collapse-pitch {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#collapse-pitch p {
+    margin: 0;
+    font-family: Lato;
+    font-size: 13px;
+    color: #006080;
+}
+
+#collapse-pitch p>a {
+    font-style: italic;
 }
 
 /* Event list css */
