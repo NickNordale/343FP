@@ -2,32 +2,65 @@
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
 
 /* Kimiko */
-a {
-    color: #35A0C3;
-}
 
 a:hover {
     text-decoration: none;
-    color: #878787;
+}
+
+main {
+    color: #FFF;
+}
+
+.signature {
+    text-align: center;
 }
 
 ul {
     list-style-type: none;
 }
 
-/* Wei-Jen */
-#emailBorder {
-    width: 55%;
-    margin: 1em;
-    padding: 1em;
-    border: 1px solid #000;
+#savings #contact {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.faq > ul, .customers > ul {
+#emailBorder {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 1em;
+    border: 1px solid #FFF;
+}
+
+#email {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Wei-Jen */
+#faq li {
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#faq h1, #savings h1, #contact h1 {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+#faq > ul, .customers > ul {
     list-style-type: none;
 }
 
-.faq > ul > li,
+#faq > ul > li,
 .customers > ul > li {
     padding-left: 1em;
     padding-bottom: 1em;
@@ -38,7 +71,7 @@ ul {
     border-radius: 10px;
 }
 
-.faq > ul > li > h2,
+#faq > ul > li > h2,
 .customers > ul > li > h2 {
     font-size: 16px;
     color: #336699;
