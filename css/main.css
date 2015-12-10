@@ -93,7 +93,6 @@ html, body, main {
 
 main {
     width: 100%;
-    background-image: url(../img/WP_20150927_040.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 550px;
@@ -295,6 +294,10 @@ nav {
         position: absolute;
         left: 0px;
         bottom: 0px;
+    }
+
+    main {
+        background-image: url(../img/WP_20150927_040.jpg);
     }
 }
 
