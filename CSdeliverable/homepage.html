@@ -63,10 +63,51 @@
 
 <main>
 
-    <div class="hidden-xs" id="desktop-homepage">
+    <div id="desktop-homepage">
+
+        <div class="hidden-sm hidden-md hidden-lg" id="mobile">
+            <div class="row" id="mobile-info-row">
+                <div class="container">
+                    <img id="mobile-mc-headshot" src="../img/image_molly_sumption.jpg" alt=""/>
+                    <p id="mobile-mc-info-p">
+                        <span><strong>Molly Sumption</strong></span><br>
+                        <span>Seattle: (206) 575-0907</span><br>
+                        <span>Portland: (503 715-3107</span><br>
+                        <span>Toll Free: (800) 777-0907</span><br>
+                        <span><a href="">email Molly</a></span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" id="mobile-pitch-row">
+                <div class="container" id="mobile-pitch">
+
+                    <p  id="collapse-link-p">
+                        <a data-toggle="collapse" href="#collapse-pitch" aria-expanded="false" aria-controls="collapseExample">
+                            More info:
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapse-pitch">
+                        <div class="card card-block">
+                            <p>
+                                Booking your trip through a Preferred Sandals / Beaches Specialist, ensures you
+                                are getting the best possible service to make your honeymoon or vacation a memorable
+                                one. I charge no fees to my customers. All commissions come to me from the
+                                resorts that I represent.
+                                <a href="http://www.mollyscaribbean.com/certified_sandals_benefit/">
+                                    Learn more
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
         <div id="mn-container" class="container">
             <div class="row" id="events-row">
-                <div id="pitch-col" class="col-sm-4">
+                <div id="pitch-col" class="col-sm-4 hidden-xs">
                     <div id="pitch">
                         <p>
                             Booking your trip through a Preferred Sandals / Beaches Specialist, ensures you
@@ -79,9 +120,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-6 col-sm-4">
 
-                    <h2 class="events-h2">Find me in Seattle!</h2>
+                    <h2 class="hidden-xs events-h2">Find me in Seattle!</h2>
+                    <h2 class="hidden-sm hidden-md hidden-lg mobile-h2">Seattle Events</h2>
 
                     <ul class="event-list">
                         <li>
@@ -92,7 +134,7 @@
                             </time>
                             <div class="info">
                                 <h2 class="title"><a href="http://www.mollyscaribbean.com/october-4-2016-urban-unveiled">Urban Unveiled</a></h2>
-                                <p class="desc hidden-sm">Fairmont Olympic Hotel</p>
+                                <p class="desc hidden-xs hidden-sm">Fairmont Olympic Hotel</p>
                             </div>
                         </li>
 
@@ -104,14 +146,14 @@
                             </time>
                             <div class="info">
                                 <h2 class="title"><a href="http://www.mollyscaribbean.com/january-16-17-2016-seattle-wedding-show/">Seattle Wedding Show</a></h2>
-                                <p class="desc hidden-sm">Washington State Convention Center</p>
+                                <p class="desc hidden-xs hidden-sm">Washington State Convention Center</p>
                             </div>
                         </li>
 
                         <li>
                             <time>
                                 <span class="day"></span>
-                                <span class="month" style="margin-top: 7px;">Fall 2016<br></span>
+                                <span class="month"><br class="hidden-xs">Fall 2016<br></span>
                                 <span class="year">2016</span>
                             </time>
                             <div class="info">
@@ -120,9 +162,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-6 col-sm-4">
 
-                    <h2 class="events-h2">Find me in Portland!</h2>
+                    <h2 class="hidden-xs events-h2">Find me in Portland!</h2>
+                    <h2 class="hidden-sm hidden-md hidden-lg mobile-h2">Portland Events</h2>
 
                     <ul class="event-list">
                         <li>
@@ -133,7 +176,7 @@
                             </time>
                             <div class="info">
                                 <h2 class="title"><a href="http://www.mollyscaribbean.com/october-304-2015-portland-wedding-showcase/">Portland Wedding Showcase</a></h2>
-                                <p class="desc hidden-sm">Oregon Convention Center</p>
+                                <p class="desc hidden-xs hidden-sm">Oregon Convention Center</p>
                             </div>
                         </li>
 
@@ -145,14 +188,14 @@
                             </time>
                             <div class="info">
                                 <h2 class="title"><a href="http://www.mollyscaribbean.com/january-12-13-portland-bridal-show/">Portland Bridal Show</a></h2>
-                                <p class="desc hidden-sm">Oregon Convention Center</p>
+                                <p class="desc hidden-xs hidden-sm">Oregon Convention Center</p>
                             </div>
                         </li>
 
                         <li>
                             <time>
                                 <span class="day"></span>
-                                <span class="month" style="margin-top: 7px;">Fall 2016<br></span>
+                                <span class="month"><br class="hidden-xs">Fall 2016<br></span>
                                 <span class="year">2016</span>
                             </time>
                             <div class="info">
@@ -279,65 +322,6 @@
 
             </div>
         </div>
-    </div>
-
-    <div class="hidden-sm hidden-md hidden-lg" id="mobile-homepage">
-
-        <div class="row" id="mobile-info-row">
-            <div class="container">
-                <img id="mobile-mc-headshot" src="../img/image_molly_sumption.jpg" alt=""/>
-                <p id="mobile-mc-info-p">
-                    <span><strong>Molly Sumption</strong></span><br>
-                    <span>Seattle: (206) 575-0907</span><br>
-                    <span>Portland: (503 715-3107</span><br>
-                    <span>Toll Free: (800) 777-0907</span><br>
-                    <span><a href="">email Molly</a></span>
-                </p>
-            </div>
-        </div>
-
-        <div class="row" id="mobile-pitch-row">
-            <div class="container" id="mobile-pitch">
-
-                <p  id="collapse-link-p">
-                    <a data-toggle="collapse" href="#collapse-pitch" aria-expanded="false" aria-controls="collapseExample">
-                        More info:
-                    </a>
-                </p>
-                <div class="collapse" id="collapse-pitch">
-                    <div class="card card-block">
-                        <p>
-                            Booking your trip through a Preferred Sandals / Beaches Specialist, ensures you
-                            are getting the best possible service to make your honeymoon or vacation a memorable
-                            one. I charge no fees to my customers. All commissions come to me from the
-                            resorts that I represent.
-                            <a href="http://www.mollyscaribbean.com/certified_sandals_benefit/">
-                                Learn more
-                            </a>
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="row" id="mobile-events-row">
-            <h2 id="mobile-h2">Upcoming Events</h2>
-            <div class="col-xs-6" id="mobile-seattle">
-                <h3>Seattle</h3>
-
-                
-
-            </div>
-
-            <div class="col-xs-6" id="mobile-portland">
-                <h3>Portland</h3>
-
-
-
-            </div>
-        </div>
-
     </div>
 
 </main>

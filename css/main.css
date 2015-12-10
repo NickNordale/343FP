@@ -102,9 +102,6 @@ ul {
     border: 2px solid #cfcfcf;
 }
 
-
-
-
 /* Nick */
 
 html, body, main {
@@ -144,11 +141,20 @@ main {
     min-height: 550px;
 }
 
-#mn-container {
+/*#mn-container {
     padding: 0;
     height: 100%;
     width: 80%;
     background-color: rgba(11, 11, 11, 0.7);
+}*/
+
+.mobile-h2 {
+    font-size: 14px;
+    color: #006080;
+}
+
+.event-list p {
+    color: #000;
 }
 
 #pitch-col {
@@ -287,31 +293,97 @@ nav {
     font-style: italic;
 }
 
-#mobile-events-row {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    color: #000;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+/* Event list css */
+
+.event-list {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.event-list > li {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgb(51, 51, 51);
+    box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+    padding: 0px;
+    margin: 0px 0px 20px;
+}
+.event-list > li > time {
+    display: inline-block;
+    width: 35%;
+    color: rgb(255, 255, 255);
+    background-color: #006080;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.event-list > li:nth-child(even) > time {
+    background-color: #006080;
+}
+.event-list > li > time > span {
+    display: none;
+}
+.event-list > li > time > .day {
+    display: block;
+    font-size: 24pt;
+    font-weight: 100;
+    line-height: 1;
+    padding-top: 5px;
+}
+.event-list > li time > .month {
+    display: block;
+    font-size: 12pt;
+    font-weight: 900;
+    line-height: 1;
 }
 
-#mobile-h2 {
-    font-size: 16px;
-    margin: 0;
+.event-list > li > .info {
+    width: 65%;
+    float: right;
+    padding-top: 5px;
+    text-align: center;
+}
+.event-list > li > .info > .title {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0px;
+}
+.event-list > li > .info > .desc {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0px;
+}
+.event-list > li > .info > ul {
+    display: table;
+    list-style: none;
+    margin: 10px 0px 0px;
+    padding: 0px;
+    width: 100%;
     text-align: center;
 }
 
-#mobile-events-row h3 {
-    margin-top: 10px;
-    font-size: 15px;
+.event-list > li > .info > ul > li {
+    display: table-cell;
+    cursor: pointer;
+    color: rgb(30, 30, 30);
+    font-size: 11pt;
+    font-weight: 300;
+    padding: 3px 0px;
+}
+.event-list > li > .info > ul > li > a {
+    display: block;
+    width: 100%;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
 }
 
-#mobile-portland h3 {
-    text-align: right;
+.event-list > li > .info > ul > li:hover {
+    color: rgb(30, 30, 30);
+    background-color: rgb(200, 200, 200);
 }
 
-/* Event list css */
+/*
 
 .event-list {
     list-style: none;
@@ -354,9 +426,7 @@ nav {
     font-weight: 900;
     line-height: 1;
 }
-.event-list > li > img {
-    width: 100%;
-}
+
 .event-list > li > .info {
     padding-top: 5px;
     text-align: center;
@@ -400,7 +470,33 @@ nav {
     background-color: rgb(200, 200, 200);
 }
 
+*/
+
 @media (min-width: 768px) {
+    #mn-container {
+        padding: 0;
+        height: 100%;
+        width: 80%;
+        background-color: rgba(11, 11, 11, 0.7);
+    }
+
+    /* Fixing mobile changes */
+
+    .event-list > li > time {
+        width: 100%;
+    }
+
+    .event-list > li > .info {
+        width: auto;
+        float: none;
+    }
+
+    .event-list > li > .info > .title {
+        font-size: 18px;
+    }
+
+    /* Done fixing mobile changes */
+
     .event-list > li {
         position: relative;
         display: block;
