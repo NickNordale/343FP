@@ -1,47 +1,79 @@
-/* Nick */
-body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-}
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
 
-nav {
-    background-color: #FFF;
-}
-
-#nav-list {
-    list-style-type: none;
-}
-
-#nav-list>li {
-    display: inline-block;
-}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
 /* Kimiko */
-a {
-    color: #35A0C3;
-}
 
 a:hover {
     text-decoration: none;
-    color: #878787;
+}
+
+main {
+    color: #FFF;
+}
+
+.signature {
+    text-align: center;
 }
 
 ul {
     list-style-type: none;
 }
 
-/* Wei-Jen */
-#emailBorder {
-    width: 55%;
-    margin: 1em;
-    padding: 1em;
-    border: 1px solid #000;
+#faq #questions {
+    margin-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.faq > ul, .customers > ul {
+.content {
+    background-color: #E9EBED;
+    color: #000;
+}
+
+#faq li {
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+#savings #contact {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#emailBorder {
+    margin-bottom: 100px;
+    padding: 1em;
+}
+
+#email {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Wei-Jen */
+#faq li {
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+#faq h1, #savings h1, #contact h1 {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+#faq > ul, .customers > ul {
     list-style-type: none;
 }
 
-.faq > ul > li,
+#faq > ul > li,
 .customers > ul > li {
     padding-left: 1em;
     padding-bottom: 1em;
@@ -52,7 +84,7 @@ ul {
     border-radius: 10px;
 }
 
-.faq > ul > li > h2,
+#faq > ul > li > h2,
 .customers > ul > li > h2 {
     font-size: 16px;
     color: #336699;
@@ -70,6 +102,7 @@ ul {
     border: 2px solid #cfcfcf;
 }
 
+
 .gallery .gallery-item {
     margin-left: 0;
 }
@@ -77,4 +110,354 @@ ul {
 br {
     clear: both;
 }
+
+
+
+/* Nick */
+
+html, body, main {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #AAA;
+}
+
+#foot p {
+    margin-left: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.events-h2 {
+    color: #FFF;
+    text-align: center;
+}
+
+#events-row, #topics-row, #resorts-row {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+}
+
+#mn-container {
+    padding: 0;
+    height: 100%;
+    width: 80%;
+    background-color: rgba(11, 11, 11, 0.7);
+}
+
+#pitch-col {
+    height: 366px;
+}
+
+#pitch {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#pitch p {
+    font-family: Lato;
+    font-size: 18px;
+    color: #006080;
+}
+
+#pitch p>a {
+    font-style: italic;
+}
+
+#topics-row {
+    color: #FFF;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+}
+
+nav {
+    background-color: #FFF;
+}
+
+#nav-list {
+    list-style-type: none;
+}
+
+#nav-list>li {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#nav-logo {
+    padding-top: 10px;
+}
+
+#mc-sandals-logo {
+    float: right;
+}
+
+#mc-info {
+    margin-left: 5px;
+}
+
+#mobile-nav {
+    margin-bottom: 5px;
+}
+
+#mobile-nav-list {
+    padding-left: 0;
+}
+
+#mobile-mc-logo {
+    width: 60%;
+    height: auto;
+}
+
+#mobile-mc-sandals-logo {
+    width: 20%;
+    height: auto;
+}
+
+#mobile-dropdown {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#mobile-info-row {
+    color: #000;
+    width: 100%;
+    margin: 0;
+    background-color: #DDD;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#mobile-mc-heashot {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+#mobile-mc-info-p {
+    margin: 0;
+    width: 60%;
+    float: right;
+}
+
+#mobile-pitch-row {
+    background-color: #DDD;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+#collapse-link-p {
+    margin-bottom: 5px;
+}
+
+#collapse-link-p a {
+    color: #000;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#collapse-pitch {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+#collapse-pitch p {
+    margin: 0;
+    font-family: Lato;
+    font-size: 12px;
+    color: #006080;
+}
+
+#collapse-pitch p>a {
+    font-style: italic;
+}
+
+#mobile-events-row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mobile-h2 {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+#mobile-events-row h3 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#mobile-portland h3 {
+    text-align: right;
+}
+
+/* Event list css */
+
+.event-list {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.event-list > li {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgb(51, 51, 51);
+    box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+    padding: 0px;
+    margin: 0px 0px 20px;
+}
+.event-list > li > time {
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #006080;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.event-list > li:nth-child(even) > time {
+    background-color: #006080;
+}
+.event-list > li > time > span {
+    display: none;
+}
+.event-list > li > time > .day {
+    display: block;
+    font-size: 24pt;
+    font-weight: 100;
+    line-height: 1;
+    padding-top: 5px;
+}
+.event-list > li time > .month {
+    display: block;
+    font-size: 12pt;
+    font-weight: 900;
+    line-height: 1;
+}
+.event-list > li > img {
+    width: 100%;
+}
+.event-list > li > .info {
+    padding-top: 5px;
+    text-align: center;
+}
+.event-list > li > .info > .title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+}
+.event-list > li > .info > .desc {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0px;
+}
+.event-list > li > .info > ul {
+    display: table;
+    list-style: none;
+    margin: 10px 0px 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.event-list > li > .info > ul > li {
+    display: table-cell;
+    cursor: pointer;
+    color: rgb(30, 30, 30);
+    font-size: 11pt;
+    font-weight: 300;
+    padding: 3px 0px;
+}
+.event-list > li > .info > ul > li > a {
+    display: block;
+    width: 100%;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+
+.event-list > li > .info > ul > li:hover {
+    color: rgb(30, 30, 30);
+    background-color: rgb(200, 200, 200);
+}
+
+@media (min-width: 768px) {
+    .event-list > li {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 70px;
+        padding: 0px;
+    }
+    .event-list > li > time,
+    .event-list > li > img  {
+        display: inline-block;
+    }
+    .event-list > li > time,
+    .event-list > li > img {
+        width: 60px;
+        float: left;
+    }
+    .event-list > li > .info {
+        background-color: rgb(245, 245, 245);
+        overflow: hidden;
+    }
+    .event-list > li > time,
+    .event-list > li > img {
+        width: 60px;
+        height: 70px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .event-list > li > .info {
+        position: relative;
+        height: 70px;
+        text-align: left;
+        padding-right: 20px;
+    }
+    .event-list > li > .info > .title,
+    .event-list > li > .info > .desc {
+        padding: 0px 10px;
+    }
+    .event-list > li > .info > ul {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    main {
+        background-image: url(../img/WP_20150927_040.jpg);
+    }
+}
+
+/* End event list css */
+
+
 
