@@ -13,10 +13,66 @@
     <!--our stylesheet-->
     <link rel="stylesheet" href="../css/main.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
 
-<nav id="desktop-nav" class="navbar hidden-xs" role="navigation">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!-- <nav id="desktop-nav" class="navbar hidden-xs" role="navigation">
 
     <div class="col-md-1 hidden-sm">
 
@@ -46,17 +102,24 @@
 
 <nav id="mobile-nav" class="navbar hidden-sm hidden-md hidden-lg" role="navigation">
 
-    <div class="col-xs-4">
-        One
-    </div>
-    <div class="col-xs-4">
-        Two
-    </div>
-    <div class="col-xs-4">
-        Three
+    <ul id="mobile-nav-list">
+        <li><img id="mobile-mc-logo" src="../img/image_logo_mc.jpg" alt=""/></li>
+        <li><img id="mobile-mc-sandals-logo" src="../img/image_logo_sandals_cert.jpg" alt=""/></li>
+    </ul>
+
+    <div class="btn-group dropdown">
+        <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+            Small button
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+        </ul>
     </div>
 
-</nav>
+</nav> -->
 
 <main>
     <div class="hidden-xs" id="desktop-homepage">
@@ -277,7 +340,20 @@
         </div>
     </div>
     <div class="hidden-sm hidden-md hidden-lg" id="mobile-homepage">
-        Mobile! Woohoo!
+        <div class="row">
+            <ul id="mobile-body-list">
+                <li id="mobile-mc-headshot"><img src="../img/image_molly_sumption.jpg" alt=""/></li>
+                <li id="mobile-mc-info">
+                    <p id="mobile-mc-info-p">
+                        <span><strong>Molly Sumption</strong></span><br>
+                        <span>Seattle: (206) 575-0907</span><br>
+                        <span>Portland: (503 715-3107</span><br>
+                        <span>Toll Free: (800) 777-0907</span><br>
+                        <span><a href="">email Molly</a></span>
+                    </p>
+                </li>
+            </ul>
+        </div>
     </div>
 </main>
 
