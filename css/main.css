@@ -25,6 +25,11 @@ ul {
     padding-right: 20px;
 }
 
+.content {
+    background-color: #E9EBED;
+    color: #000;
+}
+
 #faq li {
     padding-right: 15px;
     margin-bottom: 20px;
@@ -38,12 +43,8 @@ ul {
 }
 
 #emailBorder {
-    width: 55%;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 100px;
     padding: 1em;
-    border: 1px solid #FFF;
 }
 
 #email {
