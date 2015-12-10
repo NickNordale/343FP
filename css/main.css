@@ -206,6 +206,10 @@ nav {
     margin-left: 5px;
 }
 
+#mobile-nav-list {
+    padding-left: 0;
+}
+
 #mobile-mc-logo {
     width: 70%;
     height: auto;
@@ -216,6 +220,10 @@ nav {
     width: 30%;
     height: auto;
     float: right;
+}
+
+#mobile-mc-info-p {
+    color: #000;
 }
 
 /* Event list css */
