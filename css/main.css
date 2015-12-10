@@ -196,6 +196,18 @@ nav {
     margin-left: 5px;
 }
 
+#mobile-mc-logo {
+    width: 70%;
+    height: auto;
+    float: left;
+}
+
+#mobile-mc-sandals-logo {
+    width: 30%;
+    height: auto;
+    float: right;
+}
+
 /* Event list css */
 
 .event-list {
