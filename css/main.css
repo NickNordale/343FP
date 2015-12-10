@@ -86,16 +86,25 @@ ul {
     color: #336699;
 }
 
-#gallery-1 {
+.gallery {
     margin: auto;
 }
-#gallery-1 .gallery-item {
+.gallery-item {
     float: left;
     margin-top: 10px;
     width: 12%;
 }
-#gallery-1 img {
+.gallery img {
     border: 2px solid #cfcfcf;
+}
+
+
+.gallery .gallery-item {
+    margin-left: 0;
+}
+
+br {
+    clear: both;
 }
 
 /* Nick */
@@ -537,7 +546,6 @@ nav {
 }
 
 /* End event list css */
-
 
 
 
