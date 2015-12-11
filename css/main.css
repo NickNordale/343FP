@@ -308,7 +308,7 @@ main {
     height: 312px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 2em;
+    padding: 1em;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -605,7 +605,7 @@ nav {
     }
 
     .event-list > li > .info > .title {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .topic-description, .resort-description {
@@ -685,16 +685,18 @@ nav {
         font-size: 14px;
     }
 
-    #pitch-col {
-        height: 326px;
-    }
-
-    #pitch {
-        height: 286px;
-    }
-
     #pitch p {
         font-size: 18px;
+    }
+
+    .event-list > li > .info > .title {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #pitch {
+        height: 286px;
     }
 }
 
