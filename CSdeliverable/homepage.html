@@ -149,7 +149,7 @@
                             </fieldset>
                             <br>
                             <fieldset class="contactinfo">
-                                <label for="email">Your Email *</label>
+                                <label for="email">Your Email</label>
                                 <input type="email" name="email" class="form-control" placeholder="email" required/>
                             </fieldset>
                             <br>
@@ -158,12 +158,12 @@
                                 <textarea class="form-control" cols="50" rows="6" name="message"></textarea>
                             </fieldset>
                             <br>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <div id="email-buttons">
+                                <button id="email-submit-button" type="submit" class="btn btn-primary">Submit</button>
+                                <button id="email-cancel-button" type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                            </div>
                         </form>
 
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                     </div>
                 </div>
             </div>
@@ -272,7 +272,7 @@
             </div>
             <div class="row" id="topics-row">
 
-                <div class="col-xs-12 col-sm-4">
+                <div class="topic-left col-xs-12 col-sm-4">
                     <div>
                         <div class="hidden-xs">
                             <a href="http://www.mollyscaribbean.com/frequently-asked-questions" title="Frequently Asked Questions"><img src="../img/image_button_faq.jpg"></a>
@@ -314,7 +314,7 @@
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-4">
+                <div class="topic-right col-xs-12 col-sm-4">
                     <div>
                         <div class="hidden-xs">
                             <a href="http://www.mollyscaribbean.com/customers" title="What My Customers Say"><img src="../img/image_button_what_cust_say.jpg"></a>
@@ -337,6 +337,8 @@
 
             </div>
             <div class="row"id="resorts-row">
+
+                <h2 style="text-align: center">Resorts</h2>
 
                 <div class="left-col col-xs-6 col-sm-3">
 

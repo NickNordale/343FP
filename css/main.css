@@ -148,6 +148,19 @@ br {
     border-radius: 5px;
 }
 
+#email-buttons {
+    height: 34px;
+    width: 100%;
+}
+
+#email-cancel-button {
+    margin-right: 10px;
+}
+
+#email-submit-button {
+
+}
+
 /* End email modal */
 
 html, body, main {
@@ -177,6 +190,9 @@ html, body, main {
 #events-row, #topics-row, #resorts-row {
     padding: 0;
     margin: 0;
+}
+
+#events-row, #topics-row {
     width: 100%;
 }
 
@@ -208,9 +224,20 @@ main {
     color: #006080;
 }
 
+#resorts-row h2 {
+    font-size: 32px;
+    color: #006080;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
 .resort-h3 {
+    color: #000;
     margin-top: 10px;
     font-size: 14px;
+}
+.resort-description {
+    color: #000;
 }
 
 .topic-description, .resort-description {
@@ -218,13 +245,16 @@ main {
 }
 
 .resorts_button {
-    padding: 1em;
+    padding-bottom: 1em;
+    padding-left: 0;
+    padding-right: 0;
     margin-bottom: 10px;
     background-color: #FFF;
 }
 
 #resorts-row {
-    margin-top: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .left-col {
@@ -483,6 +513,14 @@ nav {
 }
 
 @media (min-width: 768px) {
+
+    .topic-left {
+        padding-left: 30px;
+    }
+
+    .topic-right {
+        padding-right: 30px;
+    }
 
     .content {
         background-color: transparent;
