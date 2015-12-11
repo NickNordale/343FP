@@ -287,10 +287,12 @@ main {
 }
 
 #pitch-col {
-    height: 366px;
+    height: 352px;
 }
 
 #pitch {
+    overflow: scroll;
+    height: 312px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 2em;
@@ -298,8 +300,8 @@ main {
 }
 
 #pitch p {
+    font-size: 14px;
     font-family: Lato;
-    font-size: 18px;
     color: #006080;
 }
 
@@ -667,6 +669,18 @@ nav {
 @media (min-width: 992px) {
     #mc-info-p span, #mc-info-p a {
         font-size: 14px;
+    }
+
+    #pitch-col {
+        height: 326px;
+    }
+
+    #pitch {
+        height: 286px;
+    }
+
+    #pitch p {
+        font-size: 18px;
     }
 }
 
