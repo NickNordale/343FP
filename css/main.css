@@ -185,6 +185,7 @@ html, body, main {
 }
 
 .events-h2 {
+    font-size: 24px;
     color: #FFF;
     text-align: center;
 }
@@ -405,6 +406,10 @@ nav {
     float: right;
 }
 
+#mc-info-p span, #mc-info-p a {
+    font-size: 12px;
+}
+
 #mobile-pitch-row {
     margin: 0;
     width: 100%;
@@ -436,9 +441,6 @@ nav {
 #collapse-pitch p>a {
     font-style: italic;
 }
-
-
-/* Event list css */
 
 .event-list {
     list-style: none;
@@ -662,7 +664,12 @@ nav {
     }
 }
 
-/* End event list css */
+@media (min-width: 992px) {
+    #mc-info-p span, #mc-info-p a {
+        font-size: 14px;
+    }
+}
+
 
 
 
