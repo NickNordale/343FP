@@ -237,11 +237,13 @@ main {
     color: #006080;
 }
 
-#resorts-row h2 {
+#resorts-header {
+    text-align: center;
     font-size: 32px;
     color: #006080;
     font-weight: 500;
     letter-spacing: 5px;
+    margin-bottom: 25px;
 }
 
 .resort-h3 {
