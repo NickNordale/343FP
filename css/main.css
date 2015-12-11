@@ -273,6 +273,10 @@ nav {
     background-color: #FFF;
 }
 
+.phone-span {
+    color: #000;
+}
+
 #nav-list {
     padding-left: 0;
     list-style-type: none;
