@@ -18,15 +18,15 @@
 <nav id="desktop-nav" class="navbar hidden-xs" role="navigation">
 
     <div class="col-sm-5">
-        <img id="logo-img" src="../img/image_logo_mc.jpg" alt=""/>
+        <a href="http://www.mollyscaribbean.com/">
+            <img id="logo-img" src="../img/image_logo_mc.jpg" alt=""/>
+        </a>
     </div>
 
     <div class="col-sm-5" id="nav-logo">
         <ul id="nav-list">
             <li id="mc-headshot">
-                <a href="http://www.mollyscaribbean.com/">
-                    <img src="../img/image_molly_sumption.jpg" alt=""/>
-                </a>
+                <img src="../img/image_molly_sumption.jpg" alt=""/>
             </li>
             <li id="mc-info">
                 <p id="mc-info-p">
@@ -42,44 +42,6 @@
                         </a>
                     </span>
 
-                    <!-- Email Modal -->
-                    <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Contact Molly's Caribbean</h4>
-                                </div>
-                                <div class="modal-body">
-
-                                    <form action="http://www.mollyscaribbean.com/wp-content/themes/mollyscaribbean/email.php" method="post">
-                                        <fieldset class="contactinfo">
-                                            <label for="name">Your Name</label>
-                                            <input class="form-control" name="name" size="50" type="text" placeholder="name" required/>
-                                        </fieldset>
-                                        <br>
-                                        <fieldset class="contactinfo">
-                                            <label for="email">Your Email *</label>
-                                            <input type="email" name="email" class="form-control" placeholder="email" required/>
-                                        </fieldset>
-                                        <br>
-                                        <fieldset class="contactinfo">
-                                            <label for="message">Your Message</label>
-                                            <textarea class="form-control" cols="50" rows="6" name="message"></textarea>
-                                        </fieldset>
-                                        <br>
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                    </form>
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Email Modal -->
-
                 </p>
             </li>
         </ul>
@@ -94,8 +56,13 @@
 
 <nav id="mobile-nav" class="navbar hidden-sm hidden-md hidden-lg" role="navigation">
 
-    <img id="mobile-mc-logo" src="../img/image_logo_mc.jpg" alt=""/>
-    <img id="mobile-mc-sandals-logo" src="../img/image_logo_sandals_cert.jpg" alt=""/>
+    <a href="http://www.mollyscaribbean.com/">
+        <img id="mobile-mc-logo" src="../img/image_logo_mc.jpg" alt=""/>
+    </a>
+
+    <a href="http://www.mollyscaribbean.com/certified_sandals_benefit/">
+        <img id="mobile-mc-sandals-logo" src="../img/image_logo_sandals_cert.jpg" alt=""/>
+    </a>
 
     <div class="btn-group dropdown" id="mobile-dropdown">
         <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
@@ -116,6 +83,45 @@
 </nav>
 
 <main id="faq">
+
+    <!-- Email Modal -->
+    <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Contact Molly's Caribbean</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="http://www.mollyscaribbean.com/wp-content/themes/mollyscaribbean/email.php" method="post">
+                        <fieldset class="contactinfo">
+                            <label for="name">Your Name</label>
+                            <input class="form-control" name="name" size="50" type="text" placeholder="name" required/>
+                        </fieldset>
+                        <br>
+                        <fieldset class="contactinfo">
+                            <label for="email">Your Email *</label>
+                            <input type="email" name="email" class="form-control" placeholder="email" required/>
+                        </fieldset>
+                        <br>
+                        <fieldset class="contactinfo">
+                            <label for="message">Your Message</label>
+                            <textarea class="form-control" cols="50" rows="6" name="message"></textarea>
+                        </fieldset>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Email Modal -->
+
     <div id="mn-container" class="container">
         <h1>Frequently Asked Questions</h1>
         <div id="questions">
