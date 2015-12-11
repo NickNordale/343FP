@@ -24,6 +24,7 @@ ul {
 }
 
 .content {
+    padding: 1em;
     background-color: #FFF;
     color: #000;
 }
@@ -88,10 +89,11 @@ ul {
     padding-left: 15px;
 }
 
-#faq h1, #savings h1, #contact h1 {
+#faq h1, #contact h1 {
     margin-top: 20px;
     margin-left: 15px;
     margin-bottom: 20px;
+    margin-right: 15px;
 }
 
 #faq > ul, .customers > ul {
@@ -183,6 +185,7 @@ html, body, main {
 }
 
 .events-h2 {
+    font-size: 24px;
     color: #FFF;
     text-align: center;
 }
@@ -196,11 +199,35 @@ html, body, main {
     width: 100%;
 }
 
+.hp-img {
+    width: 100%;
+    height: auto;
+}
+
+.topic-img {
+    max-width: 202px;
+}
+
+.res-img {
+    max-width: 150px;
+}
+
 main {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 550px;
+}
+
+#savings-top {
+    padding: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+#savings-top h1 {
+    margin: 0;
 }
 
 #mn-container {
@@ -224,11 +251,13 @@ main {
     color: #006080;
 }
 
-#resorts-row h2 {
+#resorts-header {
+    text-align: center;
     font-size: 32px;
     color: #006080;
     font-weight: 500;
     letter-spacing: 5px;
+    margin-bottom: 25px;
 }
 
 .resort-h3 {
@@ -271,10 +300,12 @@ main {
 }
 
 #pitch-col {
-    height: 366px;
+    height: 352px;
 }
 
 #pitch {
+    overflow: scroll;
+    height: 312px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 2em;
@@ -282,8 +313,8 @@ main {
 }
 
 #pitch p {
+    font-size: 14px;
     font-family: Lato;
-    font-size: 18px;
     color: #006080;
 }
 
@@ -390,6 +421,10 @@ nav {
     float: right;
 }
 
+#mc-info-p span, #mc-info-p a {
+    font-size: 12px;
+}
+
 #mobile-pitch-row {
     margin: 0;
     width: 100%;
@@ -421,9 +456,6 @@ nav {
 #collapse-pitch p>a {
     font-style: italic;
 }
-
-
-/* Event list css */
 
 .event-list {
     list-style: none;
@@ -523,6 +555,7 @@ nav {
     }
 
     .content {
+        color: #FFF;
         background-color: transparent;
     }
 
@@ -531,11 +564,26 @@ nav {
     }
 
     #topics-row {
+        margin-top: 10px;
         color: #FFF;
     }
 
     main {
         color: #FFF;
+    }
+
+    #savings-container {
+        padding: 0;
+        height: 100%;
+        width: 80%;
+    }
+
+    #savings-container h2 {
+        margin-top: 0;
+    }
+
+    #savings-top, .content {
+        background-color: rgba(11, 11, 11, 0.7);
     }
 
     #mn-container {
@@ -632,7 +680,24 @@ nav {
     }
 }
 
-/* End event list css */
+@media (min-width: 992px) {
+    #mc-info-p span, #mc-info-p a {
+        font-size: 14px;
+    }
+
+    #pitch-col {
+        height: 326px;
+    }
+
+    #pitch {
+        height: 286px;
+    }
+
+    #pitch p {
+        font-size: 18px;
+    }
+}
+
 
 
 
