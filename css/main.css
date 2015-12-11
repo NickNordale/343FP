@@ -308,7 +308,7 @@ main {
     height: 312px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 1em;
+    padding: 1.5em;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -685,11 +685,11 @@ nav {
         font-size: 14px;
     }
 
-    #pitch p {
+    .event-list > li > .info > .title {
         font-size: 18px;
     }
 
-    .event-list > li > .info > .title {
+    #pitch p {
         font-size: 18px;
     }
 }
@@ -699,6 +699,7 @@ nav {
         height: 286px;
     }
 }
+
 
 
 
