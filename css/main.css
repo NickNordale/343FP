@@ -199,6 +199,19 @@ html, body, main {
     width: 100%;
 }
 
+.hp-img {
+    width: 100%;
+    height: auto;
+}
+
+.topic-img {
+    max-width: 202px;
+}
+
+.res-img {
+    max-width: 150px;
+}
+
 main {
     width: 100%;
     background-size: cover;
@@ -551,6 +564,7 @@ nav {
     }
 
     #topics-row {
+        margin-top: 10px;
         color: #FFF;
     }
 
