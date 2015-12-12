@@ -421,6 +421,7 @@ nav {
 }
 
 #mobile-mc-info-p {
+    font-size: 12px;
     margin: 0;
     width: 60%;
     float: right;
@@ -437,6 +438,9 @@ nav {
 }
 
 #collapse-link-p {
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
     margin-bottom: 5px;
 }
 
