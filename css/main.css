@@ -351,6 +351,11 @@ nav {
 }
 
 #nav-list {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 0;
     list-style-type: none;
 }
@@ -360,20 +365,31 @@ nav {
     vertical-align: bottom;
 }
 
-#nav-logo {
-    padding-top: 10px;
+.nav-img {
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
+}
+
+.nav-col {
+    position: relative;
+    height: 120px;
 }
 
 #logo-img {
-    width: 100%;
+    width: 90%;
     height: auto;
     max-width: 342px;
+    position: absolute;
+    bottom: 0;
 }
 
 #sandals-img {
-    width: 100%;
+    margin-top: 10px;
+    width: 90%;
     height: auto;
     max-width: 168px;
+    position: absolute;
+    top: 0;
 }
 
 #mc-headshot {
@@ -432,6 +448,10 @@ nav {
     margin: 0;
     width: 60%;
     float: right;
+}
+
+#mc-info-p {
+    margin: 0;
 }
 
 #mc-info-p span, #mc-info-p a {
@@ -594,7 +614,7 @@ nav {
     }
 
     .navbar {
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
 
     #topics-row {
@@ -738,6 +758,10 @@ nav {
 }
 
 @media (min-width: 992px) {
+    #sandals-img {
+        margin-top: 0;
+    }
+
     .resorts_button {
         height: 268.5px;
         overflow: hidden;
