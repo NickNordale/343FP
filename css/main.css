@@ -246,7 +246,7 @@ main {
 }*/
 
 #mobile {
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 .mobile-h2 {
@@ -258,10 +258,11 @@ main {
 #resorts-header {
     text-align: center;
     font-size: 32px;
-    color: #006080;
+    color: #FFF;
     font-weight: 500;
     letter-spacing: 5px;
     margin-bottom: 25px;
+    margin-top: 5px;
 }
 
 .resort-h3 {
@@ -270,6 +271,7 @@ main {
     font-size: 14px;
 }
 .resort-description {
+    font-style: italic;
     color: #000;
 }
 
@@ -278,7 +280,7 @@ main {
 }
 
 .resorts_button {
-    height: 201px;
+    height: 150px;
     overflow: hidden;
     padding: 0.75em;
     margin-bottom: 5px;
@@ -286,8 +288,9 @@ main {
 }
 
 #resorts-row {
-    margin: 20px;
-    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #006080;
 }
 
 .left-col {
@@ -434,12 +437,25 @@ nav {
 #mobile-pitch-row {
     margin: 0;
     width: 100%;
-    padding-bottom: 5px;
+}
+
+#mobile-pitch {
+    padding: 1em;
+    margin: 0;
+    font-family: Lato;
+    font-size: 14px;
+    color: #006080;
+}
+
+#mobile-pitch a {
+    color: #000;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 #collapse-link-p {
     width: 100%;
-    text-align: right;
+    text-align: left;
     font-size: 12px;
     margin-bottom: 5px;
 }
@@ -609,6 +625,17 @@ nav {
 
     /* Fixing mobile changes */
 
+    #resorts-header {
+        color: #006080;
+        margin-top: 20px;
+    }
+
+    #resorts-row {
+        padding: 0;
+        margin: 20px;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
     .resorts_button {
         height: 270.5px;
         overflow: hidden;
@@ -713,6 +740,7 @@ nav {
     }
 
     .resort-description {
+        font-style: normal;
         font-size: 12px;
     }
 
