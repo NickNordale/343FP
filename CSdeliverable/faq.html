@@ -7,8 +7,11 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <!--our stylesheet-->
+    <!--general stylesheet-->
     <link rel="stylesheet" href="../css/main.css">
+
+    <!--page stylesheet-->
+    <link rel="stylesheet" href="../css/faq.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -98,23 +101,23 @@
                             <label for="name">Your Name</label>
                             <input class="form-control" name="name" size="50" type="text" placeholder="name" required/>
                         </fieldset>
-                        <br>
+                        <br/>
                         <fieldset class="contactinfo">
                             <label for="email">Your Email</label>
                             <input type="email" name="email" class="form-control" placeholder="email" required/>
                         </fieldset>
-                        <br>
+                        <br/>
                         <fieldset class="contactinfo">
                             <label for="message">Your Message</label>
                             <textarea class="form-control" cols="50" rows="6" name="message"></textarea>
                         </fieldset>
-                        <br>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <br/>
+                        <div id="email-buttons">
+                            <button id="email-submit-button" type="submit" class="btn btn-primary">Submit</button>
+                            <button id="email-cancel-button" type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        </div>
                     </form>
 
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 </div>
             </div>
         </div>

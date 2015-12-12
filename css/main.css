@@ -3,148 +3,47 @@
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
-/* Kimiko */
+/* Start General */
 
-a:hover {
-    text-decoration: none;
+html, body, main {
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
 
-.signature {
-    text-align: center;
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 0;
 }
 
-ul {
-    list-style-type: none;
+main {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
 }
 
-#faq #questions {
-    margin-right: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.content {
-    padding: 1em;
-    background-color: #FFF;
-    color: #000;
-}
-
-#faq li, #customer li {
-    padding-right: 15px;
-    margin-bottom: 20px;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-#faq h2 {
-    font-size: 1.25em;
-}
-
-#savings #contact {
-    margin-right: 30px;
-    margin-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-#emailBorder {
-    margin-bottom: 100px;
-    padding: 1em;
-}
-
-#email {
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#savings h1, #contact h1, #faq h1, #customer h1 {
-    font-size: 2em;
-}
-
-#savings h2, #customer h2 {
-    font-size: 1.75em;
-    letter-spacing: 5px;
-}
-
-#savings h3, #customer h3 {
-    font-size: 1.25em;
-    font-weight: bold;
-}
-
-#savings a, #faq a {
-    color: #006080;
-}
-
-.savingsdetails {
-    padding-top: 10px;
-}
-
-#customer ul {
-    margin-right: 30px;
-}
-
-
-/* Wei-Jen */
-#faq li {
-    border: 1px solid #FFF;
-    border-radius: 10px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-}
-
-#faq h1, #contact h1, #customer h1 {
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-bottom: 20px;
-    margin-right: 15px;
-}
-
-#faq > ul, .customers > ul {
-    list-style-type: none;
-}
-
-#faq > ul > li,
-.customers > ul > li {
-    padding-left: 1em;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
-    font-size: 12px;
-    border-style: solid;
-    background-color: #F8F8F8;
-    border-radius: 10px;
-}
-
-#faq > ul > li > h2,
-.customers > ul > li > h2 {
-    font-size: 16px;
-    color: #336699;
-}
-
-.gallery {
-    margin: auto;
-}
-.gallery-item {
-    float: left;
-    margin-top: 10px;
-    width: 12%;
-}
-.gallery img {
-    border: 2px solid #cfcfcf;
-}
-
-
-.gallery .gallery-item {
-    margin-left: 0;
+#mn-container {
+    background-color: #DDD;
 }
 
 br {
     clear: both;
 }
 
-/* Nick */
+a:hover {
+    text-decoration: none;
+}
 
-/* Email modal */
+
+ul {
+    list-style-type: none;
+}
+
+/* End General */
+
+
+/* Start Email Modal (General) */
 
 .modal-content {
     color: #000;
@@ -163,191 +62,13 @@ br {
     margin-right: 10px;
 }
 
-#email-submit-button {
+/* End Email Modal (General) */
 
-}
 
-/* End email modal */
-
-html, body, main {
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
-#foot {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #AAA;
-}
-
-#foot p {
-    margin-left: 1em;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.events-h2 {
-    font-size: 24px;
-    color: #FFF;
-    text-align: center;
-}
-
-#events-row, #topics-row, #resorts-row {
-    padding: 0;
-    margin: 0;
-}
-
-#events-row, #topics-row {
-    width: 100%;
-}
-
-.hp-img {
-    width: 100%;
-    height: auto;
-}
-
-.topic-img {
-    max-width: 202px;
-}
-
-.res-img {
-    max-width: 150px;
-}
-
-main {
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 550px;
-}
-
-#savings-top {
-    padding: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 10px;
-}
-
-#savings-top h1 {
-    margin: 0;
-}
-
-#mn-container {
-    background-color: #DDD;
-}
-
-/*#mn-container {
-    padding: 0;
-    height: 100%;
-    width: 80%;
-    background-color: rgba(11, 11, 11, 0.7);
-}*/
-
-#mobile {
-    /*margin-bottom: 10px;*/
-}
-
-.mobile-h2 {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #006080;
-}
-
-#resorts-header {
-    text-align: center;
-    font-size: 32px;
-    color: #FFF;
-    font-weight: 500;
-    letter-spacing: 5px;
-    margin-bottom: 25px;
-    margin-top: 5px;
-}
-
-.resort-h3 {
-    color: #000;
-    margin-top: 10px;
-    font-size: 14px;
-}
-.resort-description {
-    font-style: italic;
-    color: #000;
-}
-
-.resort-description {
-    font-size: 11px;
-}
-
-.topic-description {
-    font-size: 12px;
-}
-
-.resorts_button {
-    height: 150px;
-    overflow: hidden;
-    padding: 0.75em;
-    margin-bottom: 5px;
-    background-color: #FFF;
-}
-
-#resorts-row {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #006080;
-}
-
-.left-col {
-    padding-left: 0;
-    padding-right: 5px;
-}
-
-.right-col {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.event-list p {
-    color: #000;
-}
-
-#pitch-col {
-    height: 352px;
-}
-
-#pitch {
-    overflow: scroll;
-    height: 312px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 1.5em;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-#pitch p {
-    font-size: 14px;
-    font-family: Lato;
-    color: #006080;
-}
-
-#pitch p>a {
-    font-style: italic;
-}
-
-body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-body {
-    padding: 0;
-}
+/* Start Navbar (General) */
 
 nav {
     background-color: #FFF;
-}
-
-.phone-span {
-    color: #000;
 }
 
 #nav-list {
@@ -363,11 +84,6 @@ nav {
 #nav-list>li {
     display: inline-block;
     vertical-align: bottom;
-}
-
-.nav-img {
-    /*margin-top: 10px;
-    margin-bottom: 10px;*/
 }
 
 .nav-col {
@@ -401,16 +117,8 @@ nav {
     float: left;
 }
 
-#mc-info-list {
-    padding-left: 10px;
-}
-
 #mobile-nav {
     margin-bottom: 5px;
-}
-
-#mobile-nav-list {
-    padding-left: 0;
 }
 
 #mobile-mc-logo {
@@ -429,27 +137,6 @@ nav {
     margin-right: 15px;
 }
 
-#mobile-info-row {
-    color: #000;
-    width: 100%;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-
-#mobile-mc-heashot {
-    width: 25%;
-    height: auto;
-    float: left;
-}
-
-#mobile-mc-info-p {
-    font-size: 12px;
-    margin: 0;
-    width: 60%;
-    float: right;
-}
-
 #mc-info-p {
     margin: 0;
 }
@@ -458,301 +145,17 @@ nav {
     font-size: 12px;
 }
 
-#mobile-pitch-row {
-    margin: 0;
-    width: 100%;
-}
-
-#mobile-pitch {
-    padding: 1em;
-    margin: 0;
-    font-family: Lato;
-    font-size: 14px;
-    color: #006080;
-}
-
-#mobile-pitch a {
-    color: #000;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-#collapse-link-p {
-    width: 100%;
-    text-align: left;
-    font-size: 12px;
-    margin-bottom: 5px;
-}
-
-#collapse-link-p a {
-    color: #000;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-#collapse-pitch {
-    width: 100%;
-    padding-bottom: 5px;
-}
-
-#collapse-pitch p {
-    margin: 0;
-    font-family: Lato;
-    font-size: 12px;
-    color: #006080;
-}
-
-#collapse-pitch p>a {
-    font-style: italic;
-}
-
-.event-list {
-    list-style: none;
-    font-family: 'Lato', sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
-.event-list > li {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 5px rgb(51, 51, 51);
-    box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
-    padding: 0px;
-    margin: 0px 0px 20px;
-}
-.event-list > li > time {
-    display: inline-block;
-    width: 35%;
-    color: rgb(255, 255, 255);
-    background-color: #006080;
-    padding: 5px;
-    text-align: center;
-    text-transform: uppercase;
-}
-.event-list > li:nth-child(even) > time {
-    background-color: #006080;
-}
-.event-list > li > time > span {
-    display: none;
-}
-.event-list > li > time > .day {
-    display: block;
-    font-size: 16pt;
-    font-weight: 100;
-    line-height: 1;
-    padding-top: 5px;
-}
-.event-list > li time > .month {
-    display: block;
-    font-size: 8pt;
-    font-weight: 900;
-    line-height: 1;
-}
-
-.event-list > li > .info {
-    width: 65%;
-    float: right;
-    padding-top: 5px;
-    text-align: center;
-}
-.event-list > li > .info > .title {
-    font-size: 12px;
-    font-weight: 700;
-    margin: 0px;
-}
-.event-list > li > .info > .desc {
-    font-size: 12px;
-    font-weight: 300;
-    margin: 0px;
-}
-.event-list > li > .info > ul {
-    display: table;
-    list-style: none;
-    margin: 10px 0px 0px;
-    padding: 0px;
-    width: 100%;
-    text-align: center;
-}
-
-.event-list > li > .info > ul > li {
-    display: table-cell;
-    cursor: pointer;
-    color: rgb(30, 30, 30);
-    font-size: 11pt;
-    font-weight: 300;
-    padding: 3px 0px;
-}
-.event-list > li > .info > ul > li > a {
-    display: block;
-    width: 100%;
-    color: rgb(30, 30, 30);
-    text-decoration: none;
-}
-
-.event-list > li > .info > ul > li:hover {
-    color: rgb(30, 30, 30);
-    background-color: rgb(200, 200, 200);
-}
-
-.event-list > li > time, .event-list > li {
-    height: 50px;
-}
+/* End Navbar (General) */
 
 
 @media (min-width: 768px) {
-
-    .topic-left {
-        padding-left: 30px;
-    }
-
-    .topic-right {
-        padding-right: 30px;
-    }
-
-    .content {
-        color: #FFF;
-        background-color: transparent;
-    }
 
     .navbar {
         margin-bottom: 0;
     }
 
-    #topics-row {
-        margin-top: 10px;
-        color: #FFF;
-    }
-
     main {
         color: #FFF;
-    }
-
-    #savings-container {
-        padding: 0;
-        height: 100%;
-        width: 80%;
-    }
-
-    #savings-container h2 {
-        margin-top: 0;
-    }
-
-    #savings-top, .content {
-        background-color: rgba(11, 11, 11, 0.7);
-    }
-
-    #mn-container {
-        padding: 0;
-        height: 100%;
-        width: 80%;
-        background-color: rgba(11, 11, 11, 0.7);
-    }
-
-    /* Fixing mobile changes */
-
-    #resorts-header {
-        color: #006080;
-        margin-top: 20px;
-    }
-
-    #resorts-row {
-        padding: 0;
-        margin: 20px;
-        background-color: rgba(255, 255, 255, 0.6);
-    }
-
-    .resorts_button {
-        height: 270.5px;
-        overflow: hidden;
-        padding-bottom: 1em;
-        padding-left: 0;
-        padding-right: 0;
-        margin-bottom: 10px;
-        background-color: transparent;
-    }
-
-    .event-list > li > time > .day {
-        font-size: 24pt;
-    }
-    .event-list > li time > .month {
-        font-size: 12pt;
-    }
-
-    .event-list > li > time {
-        width: 100%;
-    }
-
-    .event-list > li > .info {
-        width: auto;
-        float: none;
-    }
-
-    .event-list > li > .info > .title {
-        font-size: 14px;
-    }
-
-    .topic-description {
-        font-size: 14px;
-    }
-
-    .left-col {
-        padding-left: 15px;
-    }
-
-    .right-col {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .resort-h3 {
-        margin-top: 20px;
-        font-size: 18px;
-    }
-
-    /* Done fixing mobile changes */
-
-    .event-list > li {
-        position: relative;
-        display: block;
-        width: 100%;
-        height: 70px;
-        padding: 0px;
-    }
-    .event-list > li > time,
-    .event-list > li > img  {
-        display: inline-block;
-    }
-    .event-list > li > time,
-    .event-list > li > img {
-        width: 60px;
-        float: left;
-    }
-    .event-list > li > .info {
-        background-color: rgb(245, 245, 245);
-        overflow: hidden;
-    }
-    .event-list > li > time {
-        width: 60px;
-        height: 70px;
-        padding: 0px;
-        margin: 0px;
-    }
-    .event-list > li > .info {
-        position: relative;
-        height: 70px;
-        text-align: left;
-        padding-right: 20px;
-    }
-    .event-list > li > .info > .title,
-    .event-list > li > .info > .desc {
-        padding: 0px 10px;
-    }
-    .event-list > li > .info > ul {
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-    }
-
-    main {
         background-image: url(../img/WP_20150927_040.jpg);
     }
 }
@@ -762,45 +165,7 @@ nav {
         margin-top: 0;
     }
 
-    .resorts_button {
-        height: 268.5px;
-        overflow: hidden;
-    }
-
-    .resort-description {
-        font-style: normal;
-        font-size: 12px;
-    }
-
     #mc-info-p span, #mc-info-p a {
         font-size: 14px;
     }
-
-    .event-list > li > .info > .title {
-        font-size: 18px;
-    }
-
-    #pitch p {
-        font-size: 18px;
-    }
 }
-
-@media (min-width: 1200px) {
-    .resorts_button {
-        height: 251.5px;
-        overflow: hidden;
-    }
-
-    .resort-description {
-        font-size: 14px;
-    }
-
-    #pitch {
-        height: 286px;
-    }
-}
-
-
-
-
-
