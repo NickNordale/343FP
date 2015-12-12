@@ -275,8 +275,12 @@ main {
     color: #000;
 }
 
-.topic-description, .resort-description {
+.resort-description {
     font-size: 11px;
+}
+
+.topic-description {
+    font-size: 12px;
 }
 
 .resorts_button {
