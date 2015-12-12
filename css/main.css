@@ -278,9 +278,7 @@ main {
 }
 
 .resorts_button {
-    padding-bottom: 1em;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0.75em;
     margin-bottom: 10px;
     background-color: #FFF;
 }
@@ -491,14 +489,14 @@ nav {
 }
 .event-list > li > time > .day {
     display: block;
-    font-size: 24pt;
+    font-size: 16pt;
     font-weight: 100;
     line-height: 1;
     padding-top: 5px;
 }
 .event-list > li time > .month {
     display: block;
-    font-size: 12pt;
+    font-size: 8pt;
     font-weight: 900;
     line-height: 1;
 }
@@ -547,6 +545,11 @@ nav {
     color: rgb(30, 30, 30);
     background-color: rgb(200, 200, 200);
 }
+
+.event-list > li > time, .event-list > li {
+    height: 50px;
+}
+
 
 @media (min-width: 768px) {
 
@@ -598,6 +601,19 @@ nav {
     }
 
     /* Fixing mobile changes */
+
+    .resorts_button {
+        padding-bottom: 1em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .event-list > li > time > .day {
+        font-size: 24pt;
+    }
+    .event-list > li time > .month {
+        font-size: 12pt;
+    }
 
     .event-list > li > time {
         width: 100%;
@@ -656,8 +672,7 @@ nav {
         background-color: rgb(245, 245, 245);
         overflow: hidden;
     }
-    .event-list > li > time,
-    .event-list > li > img {
+    .event-list > li > time {
         width: 60px;
         height: 70px;
         padding: 0px;
