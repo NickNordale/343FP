@@ -29,7 +29,7 @@ ul {
     color: #000;
 }
 
-#faq li {
+#faq li, #customer li {
     padding-right: 15px;
     margin-bottom: 20px;
     padding-left: 0;
@@ -58,16 +58,16 @@ ul {
     padding-right: 15px;
 }
 
-#savings h1, #contact h1, #faq h1 {
+#savings h1, #contact h1, #faq h1, #customer h1 {
     font-size: 2em;
 }
 
-#savings h2 {
+#savings h2, #customer h2 {
     font-size: 1.75em;
     letter-spacing: 5px;
 }
 
-#savings h3 {
+#savings h3, #customer h3 {
     font-size: 1.25em;
     font-weight: bold;
 }
@@ -80,6 +80,10 @@ ul {
     padding-top: 10px;
 }
 
+#customer ul {
+    margin-right: 30px;
+}
+
 
 /* Wei-Jen */
 #faq li {
@@ -89,7 +93,7 @@ ul {
     padding-left: 15px;
 }
 
-#faq h1, #contact h1 {
+#faq h1, #contact h1, #customer h1 {
     margin-top: 20px;
     margin-left: 15px;
     margin-bottom: 20px;
