@@ -7,8 +7,11 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <!--our stylesheet-->
+    <!--general stylesheet-->
     <link rel="stylesheet" href="../css/main.css">
+
+    <!--page stylesheet-->
+    <link rel="stylesheet" href="../css/faq.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,35 +19,52 @@
 <body>
 
 <nav id="desktop-nav" class="navbar hidden-xs" role="navigation">
-
-    <div class="col-sm-5">
-        <img id="logo-img" src="../img/image_logo_mc.jpg" alt=""/>
+    <div class="nav-col col-sm-5">
+        <a href="http://www.mollyscaribbean.com/">
+            <img class="nav-img" id="logo-img" src="../img/image_logo_mc.jpg" alt=""/>
+        </a>
     </div>
 
-    <div class="col-sm-5" id="nav-logo">
+    <div class="nav-col col-sm-5">
         <ul id="nav-list">
-            <li id="mc-headshot"><img src="../img/image_molly_sumption.jpg" alt=""/></li>
+            <li id="mc-headshot">
+                <img src="../img/image_molly_sumption.jpg" alt=""/>
+            </li>
             <li id="mc-info">
                 <p id="mc-info-p">
-                    <span><strong>Molly Sumption</strong></span><br>
-                    <span>Seattle: (206) 575-0907</span><br>
-                    <span>Portland: (503 715-3107</span><br>
-                    <span>Toll Free: (800) 777-0907</span><br>
-                    <span><a href="">email Molly</a></span>
+                    <span><strong>Molly Sumption</strong></span><br/>
+                    <a href="tel:+1.206.575.0907"><span class="phone-span">Seattle: </span>(206) 575-0907</a><br/>
+                    <a href="tel:+1.503.715.3107"><span class="phone-span">Portland: </span>(503) 715-3107</a><br/>
+                    <a href="tel:+1.800.777.0907"><span class="phone-span">Toll Free: </span>(800) 777-0907</a><br/>
+
+                    <!-- Email trigger modal -->
+                    <span>
+                        <a href="" data-toggle="modal" data-target="#emailModal">
+                            Email Molly
+                        </a>
+                    </span>
+
                 </p>
             </li>
         </ul>
     </div>
 
-    <div class="col-sm-2">
-        <img id="sandals-img" src="../img/image_logo_sandals_cert.jpg" alt=""/>
+    <div class="nav-col col-sm-2">
+        <a href="http://www.mollyscaribbean.com/certified_sandals_benefit/">
+            <img class="nav-img" id="sandals-img" src="../img/image_logo_sandals_cert.jpg" alt=""/>
+        </a>
     </div>
 </nav>
 
 <nav id="mobile-nav" class="navbar hidden-sm hidden-md hidden-lg" role="navigation">
 
-    <img id="mobile-mc-logo" src="../img/image_logo_mc.jpg" alt=""/>
-    <img id="mobile-mc-sandals-logo" src="../img/image_logo_sandals_cert.jpg" alt=""/>
+    <a href="http://www.mollyscaribbean.com/">
+        <img id="mobile-mc-logo" src="../img/image_logo_mc.jpg" alt=""/>
+    </a>
+
+    <a href="http://www.mollyscaribbean.com/certified_sandals_benefit/">
+        <img id="mobile-mc-sandals-logo" src="../img/image_logo_sandals_cert.jpg" alt=""/>
+    </a>
 
     <div class="btn-group dropdown" id="mobile-dropdown">
         <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
@@ -53,13 +73,57 @@
         <ul class="dropdown-menu dropdown-menu-right">
             <li><a href="http://www.mollyscaribbean.com/frequently-asked-questions/">FAQS</a></li>
             <li><a href="http://www.mollyscaribbean.com/customers/">Customer Reviews</a></li>
-            <li><a href="http://www.mollyscaribbean.com/contact-us/">Contact Me</a></li>
+            <!-- Email trigger modal -->
+            <li>
+                <a href="" data-toggle="modal" data-target="#emailModal">
+                    Contact Me
+                </a>
+            </li>
         </ul>
     </div>
 
 </nav>
 
 <main id="faq">
+
+    <!-- Email Modal -->
+    <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Contact Molly's Caribbean</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="http://www.mollyscaribbean.com/wp-content/themes/mollyscaribbean/email.php" method="post">
+                        <fieldset class="contactinfo">
+                            <label for="name">Your Name</label>
+                            <input class="form-control" name="name" size="50" type="text" placeholder="name" required/>
+                        </fieldset>
+                        <br/>
+                        <fieldset class="contactinfo">
+                            <label for="email">Your Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="email" required/>
+                        </fieldset>
+                        <br/>
+                        <fieldset class="contactinfo">
+                            <label for="message">Your Message</label>
+                            <textarea class="form-control" cols="50" rows="6" name="message"></textarea>
+                        </fieldset>
+                        <br/>
+                        <div id="email-buttons">
+                            <button id="email-submit-button" type="submit" class="btn btn-primary">Submit</button>
+                            <button id="email-cancel-button" type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Email Modal -->
+
     <div id="mn-container" class="container">
         <h1>Frequently Asked Questions</h1>
         <div id="questions">
@@ -127,10 +191,16 @@
                     <a href="">More...</a>
                 </li>
             </ul>
-        <div>
+        </div>
     </div>
 
 </main>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </body>
 </html>
