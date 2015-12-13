@@ -1,0 +1,19 @@
+
+#map {
+    height: 500px;
+}
+
+@media (min-width: 768px) {
+
+    #mn-container {
+        padding: 0;
+        height: 100%;
+        width: 80%;
+        background-color: rgba(11, 11, 11, 0.7);
+    }
+}
+
+
+
+
+

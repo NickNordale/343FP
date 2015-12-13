@@ -33,18 +33,6 @@
 /* End Customer */
 
 
-
-/* Kimiko */
-
-a:hover {
-    text-decoration: none;
-}
-
-
-ul {
-    list-style-type: none;
-}
-
 #savings h1, #faq h1, #customer h1 {
     font-size: 2em;
 }
