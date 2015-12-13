@@ -111,7 +111,7 @@ $(document).ready(function() {
                 L.marker([value.lat, value.lon],{icon:mark})
                     .bindPopup("<h3 class=map-popup-title>" + value.name + "</h3>" +
                     "<p class=map-popup-content><span><strong>" + value.weather + " °F</strong></span><span>" + value.weatherImg + "</span><br/>" +
-                    "<a href=homepage.html#resorts-row>See the resorts</a></p>", popupOptions)
+                    "<a href=http://students.washington.edu/nordale1/info343/343FP/CSdeliverable/homepage.html#resorts-row>See the resorts</a></p>", popupOptions)
                     .addTo(map);
             })
         });
