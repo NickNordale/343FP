@@ -42,8 +42,9 @@
     color: #FFF;
     font-weight: 500;
     letter-spacing: 5px;
-    margin-bottom: 25px;
-    margin-top: 5px;
+    margin: 0;
+    /*margin-bottom: 25px;*/
+    /*margin-top: 5px;*/
 }
 
 .resort-h3 {
@@ -74,6 +75,12 @@
     margin-top: 20px;
     padding: 20px;
     background-color: #006080;
+}
+
+#resorts-header-div {
+    padding-top: 5px;
+    padding-bottom: 25px;
+    height: 100%;
 }
 
 .left-col {
@@ -195,7 +202,7 @@
     width: 65%;
     float: right;
     padding-top: 5px;
-    text-align: center;
+    padding-left: 5px;
 }
 
 .event-list > li > .info > .title {
@@ -214,9 +221,37 @@
     height: 50px;
 }
 
+#resort-dropdown {
+    float: right;
+}
+
+#res-dd {
+    margin: 0;
+    padding: 0;
+}
+
+.resort-drop-link {
+    width: auto;
+    padding: 10px;
+}
+
+.resort-drop-link:hover {
+    background-color: #DDD;
+}
+
+#res-hr {
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 /* End Homepage */
 
 @media (min-width: 768px) {
+
+    #resort-dropdown {
+        margin-right: 20px;
+    }
 
     .topic-left {
         padding-left: 30px;
@@ -240,9 +275,13 @@
 
     /* Fixing mobile changes */
 
+    #resorts-header-div {
+        padding-top: 20px;
+    }
+
     #resorts-header {
         color: #006080;
-        margin-top: 20px;
+        /*margin-top: 20px;*/
     }
 
     #resorts-row {
@@ -333,6 +372,7 @@
         height: 70px;
         text-align: left;
         padding-right: 20px;
+        padding-left: 5px;
     }
 
     .event-list > li > .info > .title,
