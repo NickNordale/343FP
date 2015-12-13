@@ -1,6 +1,11 @@
 
 /* Start Customer */
 
+main {
+    background-size: auto;
+    background-attachment: fixed;
+}
+
 #customer ul {
     margin-right: 30px;
 }
@@ -30,6 +35,7 @@
     margin-left: 0;
 }
 
+
 /* End Customer */
 
 
@@ -40,6 +46,26 @@
 #savings h2, #customer h2 {
     font-size: 1.75em;
     letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+#customer li {
+    border: 1px solid #FFF;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+#customer a {
+    color: #006080;
+}
+
+.content {
+    padding: 1em;
+    background-color: #FFF;
+    color: #000;
 }
 
 /* Wei-Jen */
@@ -54,6 +80,11 @@
 
 
 @media (min-width: 768px) {
+
+    .content {
+        color: #000;
+        background-color: rgba(250,250,250,100);
+    }
 
     #mn-container {
         padding: 0;
