@@ -20,7 +20,6 @@ main {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 550px;
 }
 
 #mn-container {
@@ -145,6 +144,10 @@ nav {
     font-size: 12px;
 }
 
+.phone-span {
+    color: #000;
+}
+
 /* End Navbar (General) */
 
 
@@ -155,6 +158,7 @@ nav {
     }
 
     main {
+        min-height: 750px;
         color: #FFF;
         background-image: url(../img/WP_20150927_040.jpg);
     }
