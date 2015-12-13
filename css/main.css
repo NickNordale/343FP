@@ -20,7 +20,6 @@ main {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 750px;
 }
 
 #mn-container {
@@ -155,6 +154,7 @@ nav {
     }
 
     main {
+        min-height: 750px;
         color: #FFF;
         background-image: url(../img/WP_20150927_040.jpg);
     }
