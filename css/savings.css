@@ -54,6 +54,10 @@
 
 @media (min-width: 768px) {
 
+    #savings-top {
+        margin-bottom: 10px;
+    }
+
     .content {
         color: #FFF;
         background-color: transparent;
